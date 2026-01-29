@@ -29,9 +29,10 @@ public class EmpresaTest {
         e[6] = new Empleado("Silvio", 'H', new Fecha(25, 9, 2019), (int) 1070.50);
         e[7] = new Empleado("Marta", 'M', new Fecha(3, 4, 2018), (int) 1020.45);
 
-        // Listamos el array usando el método toString() que debes añadir a las clases:
+        // Listamos el array usando el método toString() que he de añadir a las clases:
         for (Empleado emple : e) {
             System.out.println(emple);
         }
     }
+
 }
